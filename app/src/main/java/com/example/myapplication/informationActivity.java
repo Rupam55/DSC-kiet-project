@@ -7,6 +7,7 @@ import android.view.Display;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -17,6 +18,7 @@ public class informationActivity extends AppCompatActivity {
     Button button;
     String text3;
     TextView text4;
+    ImageView image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,14 +26,19 @@ public class informationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_information);
 
 
+
+
         text1=findViewById(R.id.text7);
         text4=findViewById(R.id.text6);
         text2=findViewById(R.id.text5);
+        image=findViewById(R.id.imageView);
         button=findViewById(R.id.button);
 
         Bundle bn = getIntent().getExtras();
         String st = bn.getString("name");
+        int i = bn.getInt("image");
         text4.setText(String.valueOf(st));
+        image.setImageResource(i);
 
 
 

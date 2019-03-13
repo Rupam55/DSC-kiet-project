@@ -18,7 +18,6 @@
             android:layout_margin="8dp"
             app:cardCornerRadius="6dp"
             app:cardElevation="6dp"
-
             >
 
             <LinearLayout
@@ -27,11 +26,11 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/image1"
+                    android:id="@+id/first"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/a" />
+                    android:src="@drawable/first" />
 
 
                 <RelativeLayout
@@ -39,12 +38,12 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/image"
+                        android:id="@+id/image11"
                         android:layout_width="72dp"
                         android:layout_height="72dp"
                         android:layout_alignParentLeft="true"
                         android:padding="4dp"
-                        android:src="@drawable/d" />
+                        android:src="@drawable/start" />
 
 
                     <TextView
@@ -57,7 +56,7 @@
                         android:layout_marginEnd="4dp"
                         android:layout_marginRight="4dp"
                         android:layout_marginBottom="4dp"
-                        android:layout_toRightOf="@+id/image"
+                        android:layout_toRightOf="@+id/image11"
                         android:fontFamily="@font/aldrich"
                         android:text="carry minati vedio"
                         android:textColor="#000000"
@@ -66,11 +65,11 @@
 
 
                     <TextView
-                        android:id="@+id/text2"
+                        android:id="@+id/text21"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_below="@+id/text"
-                        android:layout_toRightOf="@+id/image"
+                        android:layout_toRightOf="@+id/image11"
                         android:fontFamily="@font/aldrich"
                         android:text="Ashish Talks - 455 views - 6 days"
                         android:textSize="10dp"
@@ -108,11 +107,11 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/image1"
+                    android:id="@+id/second"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/a" />
+                    android:src="@drawable/second" />
 
 
                 <RelativeLayout
@@ -120,16 +119,16 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/image"
+                        android:id="@+id/image12"
                         android:layout_width="72dp"
                         android:layout_height="72dp"
                         android:layout_alignParentLeft="true"
                         android:padding="4dp"
-                        android:src="@drawable/d" />
+                        android:src="@drawable/start" />
 
 
                     <TextView
-                        android:id="@+id/text"
+                        android:id="@+id/text5"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginStart="4dp"
@@ -138,20 +137,20 @@
                         android:layout_marginEnd="4dp"
                         android:layout_marginRight="4dp"
                         android:layout_marginBottom="4dp"
-                        android:layout_toRightOf="@+id/image"
+                        android:layout_toRightOf="@+id/image12"
                         android:fontFamily="@font/aldrich"
-                        android:text="Video Name"
+                        android:text="BB ki vine vedio"
                         android:textColor="#000000"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
 
                     <TextView
-                        android:id="@+id/text2"
+                        android:id="@+id/text22"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_below="@+id/text"
-                        android:layout_toRightOf="@+id/image"
+                        android:layout_below="@+id/text5"
+                        android:layout_toRightOf="@+id/image12"
                         android:fontFamily="@font/aldrich"
                         android:text="Ashish Talks - 455 views - 6 days"
                         android:textSize="10dp"
@@ -190,11 +189,11 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/image1"
+                    android:id="@+id/third"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/a" />
+                    android:src="@drawable/third" />
 
 
                 <RelativeLayout
@@ -202,16 +201,16 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/image"
+                        android:id="@+id/image13"
                         android:layout_width="72dp"
                         android:layout_height="72dp"
                         android:layout_alignParentLeft="true"
                         android:padding="4dp"
-                        android:src="@drawable/d" />
+                        android:src="@drawable/start" />
 
 
                     <TextView
-                        android:id="@+id/text"
+                        android:id="@+id/text3"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginStart="4dp"
@@ -220,20 +219,20 @@
                         android:layout_marginEnd="4dp"
                         android:layout_marginRight="4dp"
                         android:layout_marginBottom="4dp"
-                        android:layout_toRightOf="@+id/image"
+                        android:layout_toRightOf="@+id/image13"
                         android:fontFamily="@font/aldrich"
-                        android:text="Video Name"
+                        android:text="ashish chalchalani vedio"
                         android:textColor="#000000"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
 
                     <TextView
-                        android:id="@+id/text2"
+                        android:id="@+id/text23"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_below="@+id/text"
-                        android:layout_toRightOf="@+id/image"
+                        android:layout_below="@+id/text3"
+                        android:layout_toRightOf="@+id/image13"
                         android:fontFamily="@font/aldrich"
                         android:text="Ashish Talks - 455 views - 6 days"
                         android:textSize="10dp"
@@ -272,11 +271,11 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/image1"
+                    android:id="@+id/forth"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/a" />
+                    android:src="@drawable/forth" />
 
 
                 <RelativeLayout
@@ -284,16 +283,16 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/image"
+                        android:id="@+id/image14"
                         android:layout_width="72dp"
                         android:layout_height="72dp"
                         android:layout_alignParentLeft="true"
                         android:padding="4dp"
-                        android:src="@drawable/d" />
+                        android:src="@drawable/start" />
 
 
                     <TextView
-                        android:id="@+id/text"
+                        android:id="@+id/text4"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginStart="4dp"
@@ -302,20 +301,20 @@
                         android:layout_marginEnd="4dp"
                         android:layout_marginRight="4dp"
                         android:layout_marginBottom="4dp"
-                        android:layout_toRightOf="@+id/image"
+                        android:layout_toRightOf="@+id/image14"
                         android:fontFamily="@font/aldrich"
-                        android:text="Video Name"
+                        android:text="amit bhadana vedio"
                         android:textColor="#000000"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
 
                     <TextView
-                        android:id="@+id/text2"
+                        android:id="@+id/text24"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_below="@+id/text"
-                        android:layout_toRightOf="@+id/image"
+                        android:layout_below="@+id/text4"
+                        android:layout_toRightOf="@+id/image14"
                         android:fontFamily="@font/aldrich"
                         android:text="Ashish Talks - 455 views - 6 days"
                         android:textSize="10dp"
